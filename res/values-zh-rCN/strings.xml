@@ -1,31 +1,44 @@
 <resources>
 
-	<!-- General strings -->
+
+
+
+
+    <!-- General strings -->
     <string name="app_name">查看无线密码</string>
     <string name="app_description">在WIFI设置页面查看您的无线密码</string>
 	
     <string name="copy">复制</string>
     <string name="cancel">取消</string>
 	
-	<!-- LongPressNetworkHook -->
-	<string name="menu_option_show_password">查看密码</string>
-	
-	<!-- Preferences -->
+    <!-- LongPressNetworkHook -->
+    <string name="menu_option_show_password">查看密码</string>
+    
+    <!-- Preferences -->
     <string name="preferences_debug_title">调试</string>
     <string name="preferences_debug_summary">控制调试设置</string>
     <string name="preferences_debug_global">正在调试</string>
     <string name="preferences_debug_enabled_title">启用调试</string>
     <string name="preferences_debug_enabled_summary">这将启用/禁用所有的调试方法</string>
-	
-	<string name="preferences_showpassword_title">密码</string>
-	<string name="preferences_showpassword_summary">控制密码查看</string>
+    <string name="preferences_launcher_icon_enabled_title">隐藏桌面图标</string>
+    <string name="preferences_launcher_icon_enabled_summary">这将启用/隐藏桌面图标</string>
+    <string name="preferences_showpassword_title">密码</string>
+    <string name="preferences_showpassword_summary">控制密码查看</string>
     <string name="preferences_showpassword_global">直接复制</string>
-	<string name="preferences_showpassword_directcopypsk_title">复制预共享密钥</string>
-	<string name="preferences_showpassword_directcopypsk_summary">复制预共享密钥到剪贴板</string>
-	<string name="preferences_showpassword_directcopypassword_title">复制密码</string>
+    <string name="preferences_showpassword_directcopypsk_title">复制预共享密钥</string>
+    <string name="preferences_showpassword_directcopypsk_summary">复制预共享密钥到剪贴板</string>
+    <string name="preferences_showpassword_directcopypassword_title">复制密码</string>
     <string name="preferences_showpassword_directcopypassword_summary">复制密码到剪贴板</string>
-	
-	<!-- GetNetworkPasswordTask -->
+    <string name="preferences_showpassword_dialogtextcolor_title">文字颜色</string>
+    <string name="preferences_showpassword_dialogtextcolor_summary">从密码对话框更改文本颜色</string>
+    
+    <string name="preferences_extra_title">额外</string>
+    <string name="preferences_extra_summary">实验功能</string>
+    <string name="preferences_extra_modifydialog_password_title">修改网络密码</string>
+    <string name="preferences_extra_modifydialog_password_summary">在密码对话框中输入密码</string>
+    	
+    <string name="preferences_extra_info_dialog_password_title">信息对话框密码</string>
+    <string name="preferences_extra_info_dialog_password_summary">显示在网络信息对话框中的密码</string>
     <string name="getnetworkpassword_progressdialog_message">正在获取密码&#8230;</string>
 
 	<!-- ShowPassword -->
@@ -53,5 +66,20 @@
     <string name="supplicant_key_private_key_password">私钥密码</string>
 	
     <string name="password_copied">密码已复制到剪贴板</string>
+    
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">颜色选择器</string>
+    <string name="press_color_to_apply">选择颜色后应用</string>
+
+    <!-- Preferences -->
+    <string name="pref_category">类别</string>
+    <string name="color1_title">颜色1</string>
+    <string name="color1_summary">默认黑色默认情况下，参考设置/string>
+    <string name="color2_title">颜色2</string>
+    <string name="color2_summary">not persistent color\nalpha slider added via code</string>
+    <string name="color3_title">颜色3</string>
+    <string name="color3_summary">选择调节滑动条</string>
+    <string name="color4_title">颜色4</string>
+    <string name="color4_summary">设置XML的HEX颜色代码</string>
 	
 </resources>
